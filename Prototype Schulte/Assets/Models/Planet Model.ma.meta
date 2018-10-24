@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 8f98a04b71c272b42a6bb51e0c68977f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Flat_Ring_Atmosphere
+    100002: Flat_Ring_Planet_Surface
+    100004: Plain_Planet_Atmosphere
+    100006: Plain_Planet_Surface
+    100008: //RootNode
+    100010: Ring_1
+    100012: Ring_2
+    100014: Ring_3
+    100016: Ring_4
+    100018: Ring_5
+    100020: Ring_6
+    100022: Ring_Planet_Atmosphere
+    100024: Ring_Planet_Surface
+    100026: Rings
+    100028: transform1
+    100030: transform2
+    100032: transform3
+    100034: transform4
+    100036: transform5
+    100038: transform6
+    400000: Flat_Ring_Atmosphere
+    400002: Flat_Ring_Planet_Surface
+    400004: Plain_Planet_Atmosphere
+    400006: Plain_Planet_Surface
+    400008: //RootNode
+    400010: Ring_1
+    400012: Ring_2
+    400014: Ring_3
+    400016: Ring_4
+    400018: Ring_5
+    400020: Ring_6
+    400022: Ring_Planet_Atmosphere
+    400024: Ring_Planet_Surface
+    400026: Rings
+    400028: transform1
+    400030: transform2
+    400032: transform3
+    400034: transform4
+    400036: transform5
+    400038: transform6
+    2100000: Planet_surface
+    2100002: Atmosphere
+    2100004: Rings1
+    2300000: Flat_Ring_Atmosphere
+    2300002: Flat_Ring_Planet_Surface
+    2300004: Plain_Planet_Atmosphere
+    2300006: Plain_Planet_Surface
+    2300008: Ring_Planet_Atmosphere
+    2300010: Ring_Planet_Surface
+    2300012: Rings
+    3300000: Flat_Ring_Atmosphere
+    3300002: Flat_Ring_Planet_Surface
+    3300004: Plain_Planet_Atmosphere
+    3300006: Plain_Planet_Surface
+    3300008: Ring_Planet_Atmosphere
+    3300010: Ring_Planet_Surface
+    3300012: Rings
+    4300000: Plain_Planet_Surface
+    4300002: Plain_Planet_Atmosphere
+    4300004: Ring_Planet_Atmosphere
+    4300006: Ring_Planet_Surface
+    4300008: Rings
+    4300010: Flat_Ring_Planet_Surface
+    4300012: Flat_Ring_Atmosphere
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

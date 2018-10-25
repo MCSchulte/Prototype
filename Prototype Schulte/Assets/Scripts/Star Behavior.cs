@@ -4,32 +4,39 @@ using UnityEngine;
 
 public class StarBehavior : MonoBehaviour {
 
-	// Use this for initialization
+    Rigidbody starBody;
+    Collider col;
+
+    // Use this for initialization
 	void Start () {
-		
-	}
+        col = GetComponent<Collider>();
+        starBody = GetComponent<Rigidbody>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        RoomCollision(col, starBody);
 	}
 
-    public void RoomCollision(Collider col)
+
+    //Detroyes object
+    public void DestroyGameObject()
     {
-        if (col.CompareTag("Wall"))
+        Destroy(gameObject);
+    }
+
+    //If touching wall or ceiling will freeze, if floor will delete
+    public void RoomCollision(Collider col, Rigidbody starBody)
+    {
+        if (col.CompareTag("Wall") || col.CompareTag("Ceiling"))
         {
             Debug.Log("Wall detected");
-            //It freezes position against the wall
+            starBody.constraints = RigidbodyConstraints.FreezePosition;
         }
         else if (col.CompareTag("Floor"))
         {
             Debug.Log("Floor detected");
-            //It gets deleted
-        }
-        else if (col.CompareTag("Ceiling"))
-        {
-            Debug.Log("Ceiling detected");
-            //It freezes position on the ceiling
+            Destroy(gameObject);
         }
     }
 

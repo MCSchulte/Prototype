@@ -19,7 +19,7 @@ public class StarBehavior : MonoBehaviour {
 	}
 
 
-    //Detroyes object
+    //Destroys object
     public void DestroyGameObject()
     {
         Destroy(gameObject);

@@ -15,7 +15,6 @@ public class Star_Behavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //RoomCollision(col, starBody);
 	}
 
 

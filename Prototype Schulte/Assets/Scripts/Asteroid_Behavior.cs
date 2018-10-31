@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AsteroidBehavior : MonoBehaviour {
+public class Asteroid_Behavior : MonoBehaviour {
 
     Collider col;
 
@@ -13,7 +13,6 @@ public class AsteroidBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        RoomCollision(col);
 	}
 
     //Destroys object
@@ -23,9 +22,9 @@ public class AsteroidBehavior : MonoBehaviour {
     }
 
     //Deletes object when hits boundary
-    public void RoomCollision(Collider col)
+    public void OnCollisionEnter(Collision col)
     {
-        if (col.CompareTag("Wall") || col.CompareTag("Floor") || col.CompareTag("Ceiling"))
+        if (col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Floor") || col.gameObject.CompareTag("Ceiling"))
         {
             Debug.Log("Room detected");
             Destroy(gameObject);

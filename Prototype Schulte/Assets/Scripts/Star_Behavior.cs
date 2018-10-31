@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StarBehavior : MonoBehaviour {
+public class Star_Behavior : MonoBehaviour {
 
     Rigidbody starBody;
     Collider col;
@@ -15,7 +15,7 @@ public class StarBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        RoomCollision(col, starBody);
+        //RoomCollision(col, starBody);
 	}
 
 
@@ -26,14 +26,14 @@ public class StarBehavior : MonoBehaviour {
     }
 
     //If touching wall or ceiling will freeze, if floor will delete
-    public void RoomCollision(Collider col, Rigidbody starBody)
+    public void OnCollisionEnter(Collision col)
     {
-        if (col.CompareTag("Wall") || col.CompareTag("Ceiling"))
+        if (col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Ceiling"))
         {
             Debug.Log("Wall detected");
             starBody.constraints = RigidbodyConstraints.FreezePosition;
         }
-        else if (col.CompareTag("Floor"))
+        else if (col.gameObject.CompareTag("Floor"))
         {
             Debug.Log("Floor detected");
             Destroy(gameObject);

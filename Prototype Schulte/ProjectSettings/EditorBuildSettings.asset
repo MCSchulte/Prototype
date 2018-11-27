@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Prototype Setup.unity
+    path: Assets/Scenes/Space Room.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Third Spawn Room.unity
-    guid: f7ce12e200741f145a5a5805f8e7c4f0
+    path: Assets/Scenes/Spawn Room.unity
+    guid: 501b603dce5230643a2b53e513cd6b9d
   m_configObjects: {}

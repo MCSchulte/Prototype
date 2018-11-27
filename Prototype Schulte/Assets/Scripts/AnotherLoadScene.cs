@@ -9,7 +9,7 @@ public class AnotherLoadScene : MonoBehaviour {
     {
         //Changes to Game Scene
         Debug.Log("Change Scene");
-        SceneManager.LoadScene("Prototype Setup");
+        SceneManager.LoadScene("Space Room");
     }
 
 }

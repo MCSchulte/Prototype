@@ -8,10 +8,9 @@ public class TriggerLoadScene : MonoBehaviour {
 
 	public void onTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.CompareTag("Player"))
         {
-            print("Change Scene");
-            SceneManager.LoadScene("Prototype Setup");
+            SceneManager.LoadScene("Space Room");
 
         }
     }

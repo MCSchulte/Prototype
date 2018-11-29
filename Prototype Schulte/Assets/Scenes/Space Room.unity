@@ -1355,6 +1355,50 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &378888628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378888630}
+  - component: {fileID: 378888629}
+  m_Layer: 0
+  m_Name: Axis Planet 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &378888629
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378888628}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
+--- !u!4 &378888630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378888628}
+  m_LocalRotation: {x: -6.514233e-14, y: 0.7085869, z: 3.794187e-14, w: 0.7056236}
+  m_LocalPosition: {x: -36.97143, y: -0, z: 0.20062327}
+  m_LocalScale: {x: 2.2651258, y: 2.2651253, z: 2.2651258}
+  m_Children: []
+  m_Father: {fileID: 1816154247}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 74.767006, z: 0}
 --- !u!1001 &388866478
 Prefab:
   m_ObjectHideFlags: 0
@@ -1762,11 +1806,11 @@ HingeJoint:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 541911624}
-  m_ConnectedBody: {fileID: 761023775}
+  m_ConnectedBody: {fileID: 942448245}
   m_Anchor: {x: -30, y: 1, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.057711758, y: 0.44147727, z: -0.008797087}
+  m_ConnectedAnchor: {x: 0.05771155, y: 0.44147682, z: -0.008796789}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -1805,6 +1849,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!4 &541911629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4987573821560472, guid: 51607f1a383444f49a522f2052d7b42d,
+    type: 2}
+  m_PrefabInternal: {fileID: 541911623}
 --- !u!1001 &545995009
 Prefab:
   m_ObjectHideFlags: 0
@@ -2428,11 +2477,11 @@ HingeJoint:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 742601519}
-  m_ConnectedBody: {fileID: 761023775}
+  m_ConnectedBody: {fileID: 1578761114}
   m_Anchor: {x: -20.61, y: 1, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.027075566, y: 0.493353, z: -0.019451411}
+  m_ConnectedAnchor: {x: 0.027075646, y: 0.49335268, z: -0.019451896}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2471,6 +2520,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!4 &742601524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4987573821560472, guid: 51607f1a383444f49a522f2052d7b42d,
+    type: 2}
+  m_PrefabInternal: {fileID: 742601518}
 --- !u!1001 &747570445
 Prefab:
   m_ObjectHideFlags: 0
@@ -3354,6 +3408,50 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1ce1efb2c6f1c40a15ec7252d2ef7c, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &942448244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942448246}
+  - component: {fileID: 942448245}
+  m_Layer: 0
+  m_Name: Axis Planet 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &942448245
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942448244}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
+--- !u!4 &942448246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942448244}
+  m_LocalRotation: {x: -6.514233e-14, y: 0.7085869, z: 3.794187e-14, w: 0.7056236}
+  m_LocalPosition: {x: -29.979525, y: -0, z: 0.13064638}
+  m_LocalScale: {x: 2.2651258, y: 2.2651253, z: 2.2651258}
+  m_Children: []
+  m_Father: {fileID: 541911629}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 74.767006, z: 0}
 --- !u!1001 &963463642
 Prefab:
   m_ObjectHideFlags: 0
@@ -4255,6 +4353,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51607f1a383444f49a522f2052d7b42d, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &1120348738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4987573821560472, guid: 51607f1a383444f49a522f2052d7b42d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1120348737}
 --- !u!1 &1125669775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1074075914239462, guid: 6b1ce1efb2c6f1c40a15ec7252d2ef7c,
@@ -5190,11 +5293,11 @@ HingeJoint:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1280895266}
-  m_ConnectedBody: {fileID: 761023775}
+  m_ConnectedBody: {fileID: 1884550454}
   m_Anchor: {x: -15.9, y: 1, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0040414575, y: 0.44147727, z: 0.042188857}
+  m_ConnectedAnchor: {x: -0.004041434, y: 0.44147706, z: 0.042188656}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6007,6 +6110,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &1578761113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578761115}
+  - component: {fileID: 1578761114}
+  m_Layer: 0
+  m_Name: Axis Planet 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1578761114
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1578761113}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
+--- !u!4 &1578761115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1578761113}
+  m_LocalRotation: {x: -6.514233e-14, y: 0.7085869, z: 3.794187e-14, w: 0.7056236}
+  m_LocalPosition: {x: -20.570345, y: -0, z: 0.054708857}
+  m_LocalScale: {x: 2.0269463, y: 2.026946, z: 2.0269463}
+  m_Children: []
+  m_Father: {fileID: 742601524}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 74.767006, z: 0}
 --- !u!4 &1602293003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4961664799068764, guid: 6b1ce1efb2c6f1c40a15ec7252d2ef7c,
@@ -6792,11 +6939,11 @@ HingeJoint:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1816154242}
-  m_ConnectedBody: {fileID: 761023775}
+  m_ConnectedBody: {fileID: 378888629}
   m_Anchor: {x: -36.9, y: 1, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.08843731, y: 0.44147727, z: 0.0319047}
+  m_ConnectedAnchor: {x: 0.0884374, y: 0.4414767, z: 0.031905662}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6835,6 +6982,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!4 &1816154247 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4987573821560472, guid: 51607f1a383444f49a522f2052d7b42d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1816154241}
 --- !u!4 &1840525233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4961664799068764, guid: 6b1ce1efb2c6f1c40a15ec7252d2ef7c,
@@ -6895,6 +7047,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4264545162465794, guid: 45bca7e68c9d06547adcc03992b86ab8,
     type: 2}
   m_PrefabInternal: {fileID: 14380982}
+--- !u!1 &1884550453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1884550455}
+  - component: {fileID: 1884550454}
+  m_Layer: 0
+  m_Name: Axis Planet 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1884550454
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884550453}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
+--- !u!4 &1884550455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1884550453}
+  m_LocalRotation: {x: -6.514233e-14, y: 0.7085869, z: 3.794187e-14, w: 0.7056236}
+  m_LocalPosition: {x: -15.9956, y: -0, z: -0.008748915}
+  m_LocalScale: {x: 2.2651258, y: 2.2651253, z: 2.2651258}
+  m_Children: []
+  m_Father: {fileID: 1120348738}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 74.767006, z: 0}
 --- !u!4 &1938414103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4961664799068764, guid: 6b1ce1efb2c6f1c40a15ec7252d2ef7c,
